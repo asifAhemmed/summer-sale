@@ -15,7 +15,7 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body class="bg-white">
+  <body class="bg-gray-100">
     <!-- Header -->
     <header class="bg-[#F9F6E2] text-black">
       <div class="flex justify-around items-center">
@@ -43,14 +43,14 @@
     </header>
     <!-- Main -->
     <main>
-      <div class="mt-6 text-black">
+      <div class="mt-12 gap-6 text-black flex w-full pl-10 pr-5 pb-10">
         <!-- Products -->
         <div>
           <!-- Kitchen Wear -->
           <div>
             <h1 class="text-3xl font-medium mb-6">Kitchen Wear</h1>
-            <div class="grid grid-cols-3">
-              <div class="card w-96 shadow-xl">
+            <div class="grid grid-cols-3 gap-3">
+              <div class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod1.png"
@@ -70,7 +70,7 @@
                   <p>39.00 Tk</p>
                 </div>
               </div>
-              <div class="card w-96 shadow-xl">
+              <div class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod2.png"
@@ -90,7 +90,7 @@
                   <p>25.00 Tk</p>
                 </div>
               </div>
-              <div class="card w-96 shadow-xl">
+              <div class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod3.png"
@@ -115,8 +115,8 @@
           <!-- Sports Wear -->
           <div class="my-10">
             <h1 class="text-3xl font-medium mb-6">Sports Wear</h1>
-            <div class="grid grid-cols-3">
-              <div class="card w-96 shadow-xl">
+            <div class="grid grid-cols-3 gap-3">
+              <div class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod4.png"
@@ -136,7 +136,7 @@
                   <p>49.00 Tk</p>
                 </div>
               </div>
-              <div class="card w-96 shadow-xl">
+              <div class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod5.png"
@@ -156,7 +156,7 @@
                   <p>69.00 Tk</p>
                 </div>
               </div>
-              <div class="card w-96 shadow-xl">
+              <div class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod6.png"
@@ -182,8 +182,8 @@
           <!-- Furniture -->
           <div>
             <h1 class="text-3xl font-medium mb-6">Furniture</h1>
-            <div class="grid grid-cols-3">
-              <div class="card w-96 shadow-xl">
+            <div class="grid grid-cols-3 gap-3">
+              <div class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod7.png"
@@ -203,7 +203,7 @@
                   <p>185.00 Tk</p>
                 </div>
               </div>
-              <div class="card w-96 shadow-xl">
+              <div class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod8.png"
@@ -223,7 +223,7 @@
                   <p>225.00 Tk</p>
                 </div>
               </div>
-              <div class="card w-96 shadow-xl">
+              <div class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod9.png"
@@ -247,6 +247,23 @@
           </div>
         </div>
         <!-- Cart -->
+        <div class="ml-5">
+            <div class="mb-6 bg-white px-8 py-5">
+                <h1 class="font-medium mb-4">Have Coupon ?</h1>
+                <p>
+                    <input class="bg-white px-7 py-3 border" type="text" placeholder="Coupon Code">
+                    <button class="bg-[#E527B2] text-white px-7 py-3 font-semibold ">Apply</button>
+                </p>
+            </div>
+            <div class="bg-white px-8 py-5">
+                <hr class="bg-gray-400 mb-3">
+                <p class="font-medium">Total Price : <span class="font-normal">00</span></p>
+                <p class="font-medium">Discount : <span class="font-normal">00</span></p>
+                <p class="font-medium">Total : <span class="font-normal">00</span></p>
+                <hr class="bg-gray-400 mt-3">
+                <button class="bg-[#E527B2] text-white px-7 py-3 font-semibold rounded-lg w-full mt-4">Make Purchase</button>
+            </div>
+        </div>
       </div>
     </main>
   </body>
