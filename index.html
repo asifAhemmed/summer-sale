@@ -50,7 +50,7 @@
           <div>
             <h1 class="text-3xl font-medium mb-6">Kitchen Wear</h1>
             <div class="grid grid-cols-3 gap-3">
-              <div class="card w-80 shadow-xl">
+              <div onclick="addToCart('k-one','kn-one')" class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod1.png"
@@ -66,11 +66,11 @@
                     <i class="fa-solid fa-star text-orange-400"></i>
                     <i class="fa-solid fa-star text-orange-400"></i>
                   </p>
-                  <h2 class="card-title">K.Accessories</h2>
-                  <p>39.00 Tk</p>
+                  <h2 id="kn-one" class="card-title">K.Accessories</h2>
+                  <p><span id="k-one">39.00</span> Tk</p>
                 </div>
               </div>
-              <div class="card w-80 shadow-xl">
+              <div onclick="addToCart('k-two','kn-two')" class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod2.png"
@@ -86,11 +86,11 @@
                     <i class="fa-solid fa-star text-orange-400"></i>
                     <i class="fa-solid fa-star text-orange-400"></i>
                   </p>
-                  <h2 class="card-title">K.Accessories</h2>
-                  <p>25.00 Tk</p>
+                  <h2 id="kn-two" class="card-title">K.Accessories</h2>
+                  <p><span id="k-two">25.00</span> Tk</p>
                 </div>
               </div>
-              <div class="card w-80 shadow-xl">
+              <div onclick="addToCart('k-three','kn-three')" class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod3.png"
@@ -106,8 +106,8 @@
                     <i class="fa-solid fa-star text-orange-400"></i>
                     <i class="fa-solid fa-star text-orange-400"></i>
                   </p>
-                  <h2 class="card-title">Home Cooker</h2>
-                  <p>49.00 Tk</p>
+                  <h2 id="kn-three" class="card-title">Home Cooker</h2>
+                  <p><span id="k-three">49.00 </span>Tk</p>
                 </div>
               </div>
             </div>
@@ -116,7 +116,7 @@
           <div class="my-10">
             <h1 class="text-3xl font-medium mb-6">Sports Wear</h1>
             <div class="grid grid-cols-3 gap-3">
-              <div class="card w-80 shadow-xl">
+              <div onclick="addToCart('s-one','sp-one')" class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod4.png"
@@ -132,11 +132,11 @@
                     <i class="fa-solid fa-star text-orange-400"></i>
                     <i class="fa-solid fa-star text-orange-400"></i>
                   </p>
-                  <h2 class="card-title">Sports Black Cap</h2>
-                  <p>49.00 Tk</p>
+                  <h2 id="sp-one" class="card-title">Sports Black Cap</h2>
+                  <p><span id="s-one">49.00</span> Tk</p>
                 </div>
               </div>
-              <div class="card w-80 shadow-xl">
+              <div onclick="addToCart('s-two','sp-two')" class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod5.png"
@@ -152,11 +152,11 @@
                     <i class="fa-solid fa-star text-orange-400"></i>
                     <i class="fa-solid fa-star text-orange-400"></i>
                   </p>
-                  <h2 class="card-title">Full Jersey Set</h2>
-                  <p>69.00 Tk</p>
+                  <h2 id="sp-two" class="card-title">Full Jersey Set</h2>
+                  <p><span id="s-two">69.00</span> Tk</p>
                 </div>
               </div>
-              <div class="card w-80 shadow-xl">
+              <div onclick="addToCart('s-three','sp-three')" class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod6.png"
@@ -172,8 +172,8 @@
                     <i class="fa-solid fa-star text-orange-400"></i>
                     <i class="fa-solid fa-star text-orange-400"></i>
                   </p>
-                  <h2 class="card-title">Sports Cates</h2>
-                  <p>169.00 Tk</p>
+                  <h2 id="sp-three" class="card-title">Sports Cates</h2>
+                  <p><span id="s-three">169.00</span> Tk</p>
                 </div>
               </div>
             </div>
@@ -183,7 +183,7 @@
           <div>
             <h1 class="text-3xl font-medium mb-6">Furniture</h1>
             <div class="grid grid-cols-3 gap-3">
-              <div class="card w-80 shadow-xl">
+              <div onclick="addToCart('f-one','fu-one')" class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod7.png"
@@ -199,11 +199,11 @@
                     <i class="fa-solid fa-star text-orange-400"></i>
                     <i class="fa-solid fa-star text-orange-400"></i>
                   </p>
-                  <h2 class="card-title">Single Relax Chair</h2>
-                  <p>185.00 Tk</p>
+                  <h2 id='fu-one' class="card-title">Single Relax Chair</h2>
+                  <p><span id="f-one">185.00</span> Tk</p>
                 </div>
               </div>
-              <div class="card w-80 shadow-xl">
+              <div onclick="addToCart('f-two','fu-two')" class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod8.png"
@@ -219,11 +219,11 @@
                     <i class="fa-solid fa-star text-orange-400"></i>
                     <i class="fa-solid fa-star text-orange-400"></i>
                   </p>
-                  <h2 class="card-title">Children Play</h2>
-                  <p>225.00 Tk</p>
+                  <h2 id="fu-two" class="card-title">Children Play</h2>
+                  <p><span id="f-two">225.00</span> Tk</p>
                 </div>
               </div>
-              <div class="card w-80 shadow-xl">
+              <div onclick="addToCart('f-three','fu-three')" class="card w-80 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img
                     src="images/prod9.png"
@@ -239,8 +239,8 @@
                     <i class="fa-solid fa-star text-orange-400"></i>
                     <i class="fa-solid fa-star text-orange-400"></i>
                   </p>
-                  <h2 class="card-title">Flexible Sofa</h2>
-                  <p>349.00 Tk</p>
+                  <h2 id="fu-three" class="card-title">Flexible Sofa</h2>
+                  <p><span id="f-three">349.00 </span>Tk</p>
                 </div>
               </div>
             </div>
@@ -252,19 +252,25 @@
                 <h1 class="font-medium mb-4">Have Coupon ?</h1>
                 <p>
                     <input class="bg-white px-7 py-3 border" type="text" placeholder="Coupon Code">
-                    <button class="bg-[#E527B2] text-white px-7 py-3 font-semibold ">Apply</button>
+                    <button id="btn-apply" class="bg-[#E527B2] text-white px-7 py-3 font-semibold " disabled>Apply</button>
                 </p>
             </div>
             <div class="bg-white px-8 py-5">
-                <hr class="bg-gray-400 mb-3">
-                <p class="font-medium">Total Price : <span class="font-normal">00</span></p>
-                <p class="font-medium">Discount : <span class="font-normal">00</span></p>
-                <p class="font-medium">Total : <span class="font-normal">00</span></p>
-                <hr class="bg-gray-400 mt-3">
-                <button class="bg-[#E527B2] text-white px-7 py-3 font-semibold rounded-lg w-full mt-4">Make Purchase</button>
+               <div id="productName-container" class="mb-3">
+               </div>
+               <hr class="bg-gray-400 mb-3">
+               <p class="font-medium">Total Price : <span id="total-price" class="font-normal">00</span></p>
+               <p class="font-medium">Discount : <span class="font-normal">00</span></p>
+               <p class="font-medium">Total : <span  class="font-normal">00</span></p>
+               <hr class="bg-gray-400 mt-3">
+               <button id="btn-purchase" class="bg-[#E527B2] text-white px-7 py-3 font-semibold rounded-lg w-full mt-4" disabled>Make Purchase</button>
             </div>
         </div>
       </div>
     </main>
+
+    <!-- Scripts -->
+    <script src="scripts/utilities.js"></script>
+    <script src="scripts/app.js"></script>
   </body>
 </html>
