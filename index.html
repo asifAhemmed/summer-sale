@@ -251,7 +251,7 @@
             <div class="mb-6 bg-white px-8 py-5">
                 <h1 class="font-medium mb-4">Have Coupon ?</h1>
                 <p>
-                    <input class="bg-white px-7 py-3 border" type="text" placeholder="Coupon Code">
+                    <input id="coupon-field" class="bg-white px-7 py-3 border" type="text" placeholder="Coupon Code">
                     <button id="btn-apply" class="bg-[#E527B2] text-white px-7 py-3 font-semibold " disabled>Apply</button>
                 </p>
             </div>
@@ -260,8 +260,8 @@
                </div>
                <hr class="bg-gray-400 mb-3">
                <p class="font-medium">Total Price : <span id="total-price" class="font-normal">00</span></p>
-               <p class="font-medium">Discount : <span class="font-normal">00</span></p>
-               <p class="font-medium">Total : <span  class="font-normal">00</span></p>
+               <p class="font-medium">Discount : <span id="discount" class="font-normal">00</span></p>
+               <p class="font-medium">Total : <span id="total-amount"  class="font-normal">00</span></p>
                <hr class="bg-gray-400 mt-3">
                <button id="btn-purchase" class="bg-[#E527B2] text-white px-7 py-3 font-semibold rounded-lg w-full mt-4" disabled>Make Purchase</button>
             </div>
