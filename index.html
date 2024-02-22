@@ -263,13 +263,29 @@
                <p class="font-medium">Discount : <span id="discount" class="font-normal">00</span></p>
                <p class="font-medium">Total : <span id="total-amount"  class="font-normal">00</span></p>
                <hr class="bg-gray-400 mt-3">
-               <button id="btn-purchase" class="bg-[#E527B2] text-white px-7 py-3 font-semibold rounded-lg w-full mt-4" disabled>Make Purchase</button>
+               <button onclick="my_modal_5.showModal()" id="btn-purchase" class="bg-[#E527B2] text-white px-7 py-3 font-semibold rounded-lg w-full mt-4" >Make Purchase</button>
             </div>
         </div>
       </div>
+      <!-- Modal -->
+      <dialog id="my_modal_5" class="modal modal-bottom sm:modal-middle">
+        <div class="modal-box bg-white text-center">
+          <div class="w-1/2 mx-auto text-center">
+            <img class="w-1/2 mx-auto" src="images/congo.png" alt="">
+          </div>
+          <p class="py-4 text-2xl text-black font-bold">Congratulations</p>
+          <p>You purchase the product</p>
+          <button onclick="backToHome()" class="bg-[#E527B2] text-white px-7 py-3 mt-3 font-semibold rounded-lg">Go Home</button>
+        </div>
+      </dialog>
     </main>
 
     <!-- Scripts -->
     <script src="scripts/script.js"></script>
+    <script>
+      function backToHome(){
+        window.location.href = 'index.html';
+      }
+    </script>
   </body>
 </html>
